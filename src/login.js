@@ -4,15 +4,9 @@ function validate()
     var password=document.getElementById("password").value
 
     if(username =="root" && password =="123456"){
-        alert("Inicio exitoso");
-        return true;
-        
-        
-        
-    }else{
-        alert("Usuario incorrecto");
-        
+        location.href= "Usuario_Registrado.html"    
     }
+    
     
     
 }

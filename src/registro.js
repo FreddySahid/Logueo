@@ -32,6 +32,10 @@ form.addEventListener("submit", e=>{
     }
     else{
         parrafo.innerHTML = "enviado"
+        location.href = "Usuario_Registrado.html"
     }
+
+    
     
 })
+
